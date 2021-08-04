@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
     @GetMapping
-    String greet(@RequestParam(value = "name",required = true) String name) {
+    String greet(@RequestParam(value = "name",required = false) String name) {
         return "hello " + name;
     }
 
