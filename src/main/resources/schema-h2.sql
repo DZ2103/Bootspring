@@ -7,4 +7,3 @@ create table person
  last_name varchar,
  birth_date date
 );
-
